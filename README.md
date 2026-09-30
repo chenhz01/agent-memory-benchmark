@@ -41,7 +41,8 @@ Wire the checker into CI as an acceptance gate for your own memory docs & system
 ## What's in the box
 
 ```
-standard/STANDARD.md      # full standard text (Chinese, EN summary in this README)
+standard/STANDARD.md      # full standard text (Chinese)
+standard/STANDARD_EN.md   # full standard text (English, External Edition v1.1)
 checker/                  # self-checker: exit-code contract 0/2/3/4/5
 conformance/cases.jsonl   # machine-readable clause cases
 tools/examples/           # zero-dep toy implementations
@@ -52,7 +53,7 @@ COLLABORATION.md          # how to work with us
 
 ## Status
 
-Open standard **draft** (not an official industry standard). v0.1, 2026-09-30.
+Open standard **draft** (not an official industry standard). v1.1 (External Edition), 2026-09-30.
 Issue-driven: clause feedback, conformance case proposals, and NMR submissions
 all welcome via issues.
 
