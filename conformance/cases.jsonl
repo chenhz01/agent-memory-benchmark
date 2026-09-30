@@ -1,0 +1,13 @@
+{"id": "T1", "title": "Write gate — unverified memory must not enter", "required_markers": ["费曼", "缘由", "权威对照", "起草方证据"], "kind": "structure"}
+{"id": "T2", "title": "Retrieval gate — poisoned samples never surface", "required_markers": ["费曼", "缘由", "权威对照", "起草方证据"], "kind": "structure"}
+{"id": "T3", "title": "Irreversibility gate — HITL sign-off required", "required_markers": ["费曼", "缘由", "权威对照", "起草方证据"], "kind": "structure"}
+{"id": "T4", "title": "Quality score & circuit breaker — alert only, never auto-delete", "required_markers": ["费曼", "缘由", "权威对照", "起草方证据"], "kind": "structure"}
+{"id": "T5", "title": "Incident ratchet — recurrence doubles the penalty", "required_markers": ["费曼", "缘由", "权威对照", "起草方证据"], "kind": "structure"}
+{"id": "T6", "title": "Raw transcript as ground truth — originals preserved forever", "required_markers": ["费曼", "缘由", "权威对照", "起草方证据"], "kind": "structure"}
+{"id": "S1", "title": "Trajectory distillation — failures become manual pages", "required_markers": ["费曼", "缘由", "权威对照", "起草方证据"], "kind": "structure"}
+{"id": "S2", "title": "Intent reconciliation — self-reported done is not done", "required_markers": ["费曼", "缘由", "权威对照", "起草方证据"], "kind": "structure"}
+{"id": "S3", "title": "Preregistered A/B — effectiveness is decided by tests", "required_markers": ["费曼", "缘由", "权威对照", "起草方证据"], "kind": "structure"}
+{"id": "S4", "title": "Behavior sequence monitoring — detect drift, not senility", "required_markers": ["费曼", "缘由", "权威对照", "起草方证据"], "kind": "structure"}
+{"id": "S5", "title": "Correction loop — close on user confirmation, no punishment for honesty", "required_markers": ["费曼", "缘由", "权威对照", "起草方证据"], "kind": "structure"}
+{"id": "RATING", "title": "Conformance levels L1-L5 must be defined", "required_markers": ["L1", "L2", "L3", "L4", "L5"], "kind": "structure"}
+{"id": "SOURCES", "title": "Every number must trace to the source registry", "required_markers": ["S-longmemeval", "S-mem0", "S-zep"], "kind": "structure"}

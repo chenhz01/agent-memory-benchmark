@@ -1,0 +1,6 @@
+# collaboration-layer inventory (not for public distribution)
+tools/calibration/LOCKED.md
+# local scratch
+_amtf_extract.txt
+__pycache__/
+*.pyc
