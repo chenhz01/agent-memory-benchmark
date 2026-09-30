@@ -1,6 +1,6 @@
 # Agent Memory Governance Benchmark — 条款全文
 
-> 版本：公开草案 v0.1（Open Preview）· 2026-09-30 · 起草：正明（Zhengming）
+> 版本：公开草案 v1.1（外发通用版）· 2026-09-30 · 起草：正明（Zhengming）· 英语版：[STANDARD_EN.md](STANDARD_EN.md)
 > 核心主张：**记忆治理的杠杆在行为层，不在表示层**——Agent 内部"我记住了/我完成了"的自报信号不作数，标准必须约束**可观测的动作**：写入前过没过闸？该忘的忘没忘住？删的东西有没有人签字？
 > 状态声明：本文件是公开规范草案（open standard draft），不是任何官方行业标准。
 
