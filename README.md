@@ -44,12 +44,31 @@ Wire the checker into CI as an acceptance gate for your own memory docs & system
 standard/STANDARD.md      # full standard text (Chinese)
 standard/STANDARD_EN.md   # full standard text (English, External Edition v1.1)
 checker/                  # self-checker: exit-code contract 0/2/3/4/5
+mutation_test.py          # adversarial twin of the checker (27 frozen specs / 7 attack families)
 conformance/cases.jsonl   # machine-readable clause cases
 tools/examples/           # zero-dep toy implementations
 leaderboard/              # NMR submission spec
 MANIFEST.md               # what's open / collaboration-only / never-in-repo
 COLLABORATION.md          # how to work with us
 ```
+
+## Mutation engine
+
+`mutation_test.py` is the adversarial twin of the checker: 27 frozen mutation
+specs across seven attack families (alias sensitivity, stuffing boundaries,
+honeypot matrices, effect markers, guard-phrase false positives, end-to-end
+injection, determinism). Each spec breaks the checker in exactly one targeted
+way and asserts which check must catch it.
+
+```bash
+python mutation_test.py
+# === mutation summary: 27 frozen specs / 28 live checks, 0 attacks landed ===
+```
+
+A spec that stops catching its attack fails loudly — the suite audits itself,
+not just the checker. To point it at your own deterministic gate: swap the
+target module and write specs against the guarantees you actually claim. The
+seven families transfer as a taxonomy even where individual mutations don't.
 
 ## Status
 
